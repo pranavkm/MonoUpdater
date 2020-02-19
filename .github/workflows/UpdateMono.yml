@@ -1,9 +1,11 @@
 name: Update Mono
 
 on:
+on:
   schedule:
     - cron: '15 21 * * *'
-  push
+  push:
+
 
 jobs:
   update-mono:
